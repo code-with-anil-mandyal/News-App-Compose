@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.dagger.hilt.android)
     alias(libs.plugins.ksp)
+    id("kotlin-parcelize")
 }
 
 android {
@@ -90,6 +91,7 @@ dependencies {
     //data store
     implementation (libs.androidx.datastore.preferences)
 
+    implementation(libs.accompanist.systemuicontroller)
 
 
 
