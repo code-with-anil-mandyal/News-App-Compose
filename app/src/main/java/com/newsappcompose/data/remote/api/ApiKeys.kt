@@ -5,7 +5,7 @@ const val COUNTRY = "us"
 
 const val CATEGORY = "business"
 
-const val APIKEY = "8b07f123c81f4921a034c3aa4615c0f5"
+const val APIKEY = "Your api key"
 const val AUTH_TOKEN = "auth_token"
 const val AUTH_PARAM = "Authorization"
 
